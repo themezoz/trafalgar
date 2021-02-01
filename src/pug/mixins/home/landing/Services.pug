@@ -1,0 +1,32 @@
+mixin Service(config)
+  .col-sm-9.col-md-4
+    .card.h-100.w-100.shadow.rounded-lg.p-5.p-md-2.p-lg-3.p-xl-5
+      .card-body.d-flex.flex-column.text-center.text-md-start
+        .py-3
+          img.img-fluid(src=`${CWD}assets/img/illustrations/${config.image}` height='90px'   alt='') 
+        .py-3
+          h4.fw-bold.card-title=config.title
+          p.card-text=config.text               
+
+mixin Services
+  section.py-8
+    +Background({ image: `${CWD}assets/img/illustrations/services-bg.png`, attrs: { style: { 'background-position': 'center left', 'background-size': 'contain',} }, className: '' })
+    .container-lg
+      .row.flex-center
+        .col-auto.text-center
+          h2.fw-bold Our services
+          hr.w-25.mx-auto.text-dark(style="height:2px;")
+      .row.flex-center   
+        .col-sm-9.col-xl-8.text-center
+          p We provide to you the best choiches for you. Adjust it to your health needs and make sure your undergo treatment with our highly qualified doctors you can consult with us which type of service is suitable for your health
+
+      .row.flex-center.h-100.pt-7.g-4
+        +Service({image:'search.png', title:'Search doctor',text:'Buy  your medicines with our mobile application with a simple delivery system'})
+        +Service({image:'online-pharmacy.png', title:'Online pharmacy',text:'Buy  your medicines with our mobile application with a simple delivery system'})
+        +Service({image:'consultation.png', title:'Consultation',text:'Buy  your medicines with our mobile application with a simple delivery system'})
+        +Service({image:'details-info.png', title:'Details info',text:'You can get 24/7 urgent care for yourself or your children and your lovely family'})
+        +Service({image:'emergency-care.png', title:'Emergency care',text:'You can get 24/7 urgent care for yourself or your children and your lovely family'})
+        +Service({image:'tracking.png', title:'Tracking',text:'You can get 24/7 urgent care for yourself or your children and your lovely family'})
+
+        .text-center.py-4
+          button.btn.btn-lg.btn-outline-primary.rounded-pill(type='submit') Learn more 

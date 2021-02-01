@@ -1,0 +1,20 @@
+mixin HeroHeader
+  section.py-0
+    .container.position-relative
+      img.img-fluid(src=`${CWD}assets/img/illustrations/element.png`  alt='' style="position:absolute;left:-222px;top:150px;")
+      .row.align-items-center
+        .col-md-5.col-lg-6.order-md-1.pt-8
+          img.img-fluid(src=`${CWD}assets/img/illustrations/hero-header.png`  alt='') 
+        .col-md-7.col-lg-6.text-center.text-md-start.pt-5.pt-md-9
+          h1.mb-4.display-3.fw-bold Virtual healthcare 
+            br.d-block.d-lg-none.d-xl-block
+            |for you.
+          
+          p.mt-3.mb-4.fs-1 Trafalgar provides progressive, and affordable
+            br
+            | healthcare, accessible on mobile and online
+            br 
+            |for everyone
+          a.btn.btn-lg.btn-primary.rounded-pill(href='#' role='button')
+            | Learn more
+          
