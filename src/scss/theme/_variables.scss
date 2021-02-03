@@ -177,7 +177,7 @@ $enable-negative-margins: true !default;
 //|   Shadow
 //-----------------------------------------------*/
 
-$box-shadow: 0 .4375rem .875rem 0 rgba(65, 69, 88, 0.1), 0 3px 6px 0 rgba(0, 0, 0, 0.07) !default;
+$box-shadow: 0 .6375rem .975rem 0 #F4F8FE, 0 3px 6px 0 #F4F8FE !default;
 $box-shadow-sm: 0 1.5625rem 2.8125rem rgba($gray-500, .075) !default;
 $box-shadow-lg: 0 1rem 4rem rgba($black, 0.175) !default;
 
@@ -426,8 +426,8 @@ $carousel-control-hover-opacity: 0.9 !default;
 $carousel-control-color:             $primary !default;
 
 $carousel-indicator-active-bg:       $primary !default;
-$carousel-indicator-width:           5px !default;
-$carousel-indicator-height:          5px !default;
+$carousel-indicator-width:           9px !default;
+$carousel-indicator-height:          9px !default;
 $carousel-indicator-hit-area-height : 0 !default;
 
 
@@ -435,8 +435,3 @@ $carousel-control-prev-icon-bg:      url("data:image/svg+xml,%3Csvg xmlns='http:
 $carousel-control-next-icon-bg:      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='#{$carousel-control-color}' class='bi bi-arrow-right' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z'/%3E%3C/svg%3E") !default;
 
 
-// Links
-//
-// Style anchor elements.
-
-// $link-color:                              $primary !default;

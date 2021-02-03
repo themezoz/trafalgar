@@ -43,18 +43,23 @@
 
  li{
   border-radius: 50%;
+
  }
 
   .active {
     opacity: $carousel-indicator-active-opacity;
     background-color: $primary;
-    width: 7px;
-    height:7px;
+    width: 9px;
+    height:9px;
   }
 }
 
 .carousel-control-prev {
   left: auto;
   right: 45px;
+}
+.carousel-control-next {
+  right: auto;
+  left: 45px;
 }
 

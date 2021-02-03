@@ -6047,8 +6047,8 @@ fieldset:disabled .btn {
   background-color: rgba(255, 255, 255, 0.85);
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 0 0.4375rem 0.875rem 0 rgba(65, 69, 88, 0.1), 0 3px 6px 0 rgba(0, 0, 0, 0.07);
-  box-shadow: 0 0.4375rem 0.875rem 0 rgba(65, 69, 88, 0.1), 0 3px 6px 0 rgba(0, 0, 0, 0.07);
+  -webkit-box-shadow: 0 0.6375rem 0.975rem 0 #F4F8FE, 0 3px 6px 0 #F4F8FE;
+  box-shadow: 0 0.6375rem 0.975rem 0 #F4F8FE, 0 3px 6px 0 #F4F8FE;
   border-radius: 0.25rem;
 }
 
@@ -6913,8 +6913,8 @@ fieldset:disabled .btn {
   -webkit-box-flex: 0;
   -ms-flex: 0 1 auto;
   flex: 0 1 auto;
-  width: 5px;
-  height: 5px;
+  width: 9px;
+  height: 9px;
   margin-left: 3px;
   margin-right: 3px;
   text-indent: -999px;
@@ -7483,8 +7483,8 @@ fieldset:disabled .btn {
 }
 
 .shadow {
-  -webkit-box-shadow: 0 0.4375rem 0.875rem 0 rgba(65, 69, 88, 0.1), 0 3px 6px 0 rgba(0, 0, 0, 0.07) !important;
-  box-shadow: 0 0.4375rem 0.875rem 0 rgba(65, 69, 88, 0.1), 0 3px 6px 0 rgba(0, 0, 0, 0.07) !important;
+  -webkit-box-shadow: 0 0.6375rem 0.975rem 0 #F4F8FE, 0 3px 6px 0 #F4F8FE !important;
+  box-shadow: 0 0.6375rem 0.975rem 0 #F4F8FE, 0 3px 6px 0 #F4F8FE !important;
 }
 
 .shadow-sm {
@@ -17926,13 +17926,18 @@ label {
 .carousel-indicators .active {
   opacity: 1;
   background-color: #458FF6;
-  width: 7px;
-  height: 7px;
+  width: 9px;
+  height: 9px;
 }
 
 .carousel-control-prev {
   right: auto;
   left: 45px;
+}
+
+.carousel-control-next {
+  left: auto;
+  right: 45px;
 }
 
 .card {
