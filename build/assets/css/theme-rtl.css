@@ -17739,9 +17739,9 @@ label {
 .hover-top {
   -webkit-transform: translateY(0) translateZ(0);
   transform: translateY(0) translateZ(0);
-  -webkit-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 .hover-top.hover-top-shadow-lg:hover, .hover-top.hover-top-shadow-lg:focus {
