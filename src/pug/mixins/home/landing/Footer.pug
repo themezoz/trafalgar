@@ -21,24 +21,24 @@ mixin Footer
     +Background({ image: `${CWD}assets/img/illustrations/dot.png`, attrs: { style: { 'background-position': 'left bottom', 'background-size': 'auto','filter':'contrast(1.5)'} }, className: '' })  
     +Background({ image: `${CWD}assets/img/illustrations/dot-2.png`, attrs: { style: { 'background-position': 'right top', 'background-size': 'auto','margin-top':'-75px'} }, className: '' })  
     .container
-      .row.justify-content-lg-around.z-index-1
-        .col-12.col-sm-12.col-lg-3.order-0.order-sm-0
+      .row
+        .col-12.col-lg-4.order-0.order-sm-0.pe-6
           a(href='#').text-decoration-none
             img.img-fluid.me-2(src=`${CWD}assets/img/icons/footer-logo.png` alt='' )
             span.fw-bold.fs-1.text-light Trafalgar
           p.mt-3.text-white Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone
 
-        .col-4.col-lg-3.mb-3.order-2.order-sm-1
+        .col-4.col-md-4.col-lg.mb-3.order-2.order-sm-1
           h6.lh-lg.fw-bold.text-light Company
           ul.list-unstyled.mb-md-4.mb-lg-0
             +FooterList('About','Testimonials','Find a doctor','Apps')
 
-        .col-4.col-lg-3.mb-3.order-3.order-sm-2
+        .col-4.col-md-4.col-lg.mb-3.order-3.order-sm-2
           h6.lh-lg.fw-bold.text-light  Region 
           ul.list-unstyled.mb-md-4.mb-lg-0
             +FooterList('Indonesia','Singapore','Guide','Hongkong','Canada')
             
-        .col-4.col-lg-3.mb-3.order-1.order-sm-3
+        .col-4.col-md-4.col-lg.mb-3.order-1.order-sm-3
           h6.lh-lg.fw-bold.text-light Help 
           ul.list-unstyled.mb-md-4.mb-lg-0
             +FooterList('Help center','Contact support','Guide','Instructions','How it works')

@@ -13,7 +13,7 @@ mixin Testimonial(config)
             p.card-text.ms-md-5=config.text
 
 mixin Testimonials
-  section.py-8
+  section.py-8#testimonial
     .container
       +Background({ image: `${CWD}assets/img/illustrations/dot.png`, attrs: { style: { 'background-position': 'right top', 'background-size': 'auto','margin-left':'-30px','margin-top':'10px','filter':'contrast(1.5)'} }, className: 'z-index-1' })
       +Background({ image: `${CWD}assets/img/illustrations/dot-2.png`, attrs: { style: { 'background-position': 'left bottom', 'background-size': 'auto','margin-left':'-35px','margin-top':'-65px','filter':'contrast(1.5)'} }, className: 'z-index-1' })
